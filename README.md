@@ -1,4 +1,4 @@
-# Search-with-Prioritize
+# Search-with-Prioritizing-matches
 I created this project using Python.
 Here I have used an algorithm that is quit similar to the backend of the Google search.
 Here this program accepts number of lines as per the users demand and append those lines into a list.
