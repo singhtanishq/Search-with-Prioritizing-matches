@@ -1,15 +1,29 @@
-# Search-with-Prioritizing-matches
-I created this project using Python.
-Here I have used an algorithm that is quit similar to the backend of the Google search.
-Here this program accepts number of lines as per the users demand and append those lines into a list.
-Then displays all the accepted lines excluding the repetitions as it pops all the duplicates.
-After this it asks the user to enter a keyword on the basis of which it searches the lines.
-The mechanism of searching lines is that, when user enters some keyword, then my program intelligently counts the frequency of that keyword in each line.
-If the frequency is zero then it simply display that no results found.
-If one result is found then it shows that single result.
-But if several number of results are found then, it shows the result that is most appropriate means the line that has the maximum frequency of that keyword.
-Also it asks the user whether they are satisfied with that result or not,
-if user is satisfied then program ends and it displays operation completed successfully.
-But if user is not satisfied with the result then it displays the second most appropriate result and so on, till the user is satisfied.
-If at last user is not satisfied with any of the result then again the program ends.
-This is how my program looks like.
+# Search with Prioritizing Matches
+- The program is created using Python.
+ 
+- It uses an algorithm similar to the backend of Google search.
+
+- The program accepts a user-defined number of lines and appends them to a list.
+
+- It displays all the accepted lines while removing any duplicate lines.
+
+- Users are prompted to enter a keyword for searching within the lines.
+
+
+# For the keyword search:
+
+- The program counts the frequency of the entered keyword in each line.
+
+- If the keyword's frequency is zero, it displays "no results found".
+
+- If only one result is found, it displays that single result.
+
+- If multiple results are found, the program shows the result with the highest keyword frequency.
+
+- The program asks the user if they are satisfied with the result.
+
+- If the user is satisfied, the program ends and displays "operation completed successfully."
+
+- If the user is not satisfied, the program displays the second most appropriate result and repeats the satisfaction inquiry.
+
+- This process continues until the user is satisfied with a result or decides not to proceed further.
